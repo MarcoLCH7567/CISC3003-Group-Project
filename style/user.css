@@ -1,0 +1,287 @@
+.banner {
+	height: 400px;
+	background-image: url(../image/10.png);
+	background-size: 100% auto;
+	position: relative;
+}
+
+.banner>div {
+	position: absolute;
+}
+
+.banner>.user {
+	left: 2%;
+	bottom: 7%;
+}
+
+.banner>.user>div {
+	float: left;
+}
+
+.banner .user-img,
+.banner .user-img>img {
+	width: 80px;
+	height: 80px;
+	border-radius: 100%;
+}
+
+.banner .user-text {
+	margin-left: 20px;
+	margin-top: 15px;
+}
+
+.banner .user-text>div:first-child {
+	overflow: hidden;
+}
+
+.banner .user-text>div:first-child>h3,
+.banner .user-text>div:first-child>i,
+.banner .user-text>div:first-child>span {
+	float: left;
+	margin: 0;
+	color: #fff;
+	text-align: center;
+}
+
+.banner .user-text>div:first-child>h3 {
+	font-weight: 500;
+	margin-right: 5px;
+}
+
+.banner .user-text>div:first-child>i {
+	font-size: 16px;
+	color: #F8464C;
+	margin-right: 20px;
+	margin-top: 5px;
+}
+
+.banner .user-text>div:first-child>span:first-of-type {
+	width: 50px;
+	height: 20px;
+	background: #42D333;
+	line-height: 20px;
+	font-size: 14px;
+	margin-top: 2px;
+	margin-right: 10px;
+}
+
+.banner .user-text>div:first-child>span:last-of-type {
+	width: 40px;
+	height: 18px;
+	line-height: 8px;
+	font-size: 16px;
+	margin-top: 2px;
+	border: 1px solid rgba(255, 255, 255, .8);
+}
+
+.banner .user-text>p {
+	color: #fff;
+	font-size: 14px;
+	margin-top: 8px;
+}
+
+.banner .user-text>p>span {
+	margin: 0 10px;
+}
+
+.banner>.fenxiang {
+	color: rgba(255, 255, 255, .8);
+	font-size: 12px;
+	right: 2%;
+	bottom: 7%;
+}
+
+.banner>.fenxiang>a {
+	color: #fff;
+}
+
+.banner>.fenxiang>a {
+	margin-left: 12px;
+}
+
+.banner>.fenxiang>a:first-of-type {
+	margin-left: 5px;
+}
+
+.user-nav {
+	position: relative;
+	height: 50px;
+}
+
+.user-nav>div,
+.user-nav>ul {
+	position: absolute;
+}
+
+.user-nav>ul {
+	overflow: hidden;
+	height: 100%;
+	left: 42%;
+}
+
+.user-nav>ul>li {
+	height: 100%;
+	margin-right: 40px;
+	float: left;
+}
+
+.user-nav>ul>li>a {
+	height: calc(100% - 2px);
+	display: block;
+	line-height: 50px;
+	text-align: center;
+	font-size: ;
+	color: #606060;
+}
+
+.user-nav>ul>li:first-of-type>a {
+	color: #42D333;
+	border-bottom: 2px solid #42D333;
+}
+
+.user-nav>ul>li>a:hover {
+	color: #42D333;
+	border-bottom: 2px solid #42D333;
+}
+
+.user-nav>div {
+	color: #606060;
+	font-size: 14px;
+	right: 6%;
+	height: 100%;
+	line-height: 50px;
+}
+
+.user-nav>div>span:first-child {
+	margin-right: 50px;
+}
+
+.user-nav>div i {
+	font-size: 12px;
+}
+
+.centerbox {
+	background-color: #F5F6FA;
+	padding-top: 10px; 
+	padding-bottom:40px;
+}
+
+.centerbox-nav {
+	padding: 20px 0;
+	overflow: hidden;
+}
+
+.centerbox-nav>ul {
+	float: left;
+	overflow: hidden;
+}
+
+.centerbox-nav>ul>li {
+	height:30px;
+	float: left;
+	margin-right: 20px;
+}
+
+.centerbox-nav>ul>li>a {
+	color: #606060;
+	font-size: 14px;
+	display:block;
+	height:calc(100% - 2px);
+	line-height:30px;
+	text-align:center;
+	border-top:2px solid rgba(0,0,0,0);
+}
+
+.centerbox-nav>ul>li:first-child>a {
+	border-top: 2px solid #42D333;
+	color: #42D333;
+}
+.centerbox-nav>ul>li>a:hover{
+	border-top: 2px solid #42D333;
+	color: #42D333;
+}
+.centerbox-nav>form {
+	float: right;
+	overflow: hidden;
+	padding:5px 10px;
+	height:20px;
+	background-color:#fff;
+	border-radius:5px;
+}
+.centerbox-nav>form>input,
+.centerbox-nav>form>i{
+	float:left;
+	font-size:12px;
+}
+.centerbox-nav>form>i{
+	font-size:18px;
+}
+.centerbox-nav>form>input{
+	border:none;
+	height:100%;
+	width:110px;
+	background-color:;
+}
+.centerbox .opus>ul{
+	overflow:hidden;
+}
+.centerbox .opus>ul>li{
+	float:left;
+	width:32.6%;
+	background-color:#fff;
+	border-radius:3px;
+	overflow:hidden;
+	margin-right:1.1%;
+	margin-bottom:1.1%;
+}
+.centerbox .opus>ul>li:nth-child(3n+3){
+	margin-right:0;
+}
+.centerbox .opus>ul>li>a{
+	height:100%;
+	display:block;
+}
+.centerbox .opus>ul>li>a>img{
+	display:block;
+	height:400px;
+	width:100%;
+}
+.centerbox .opus>ul>li>a>div{
+	padding:10px 20px;
+	width:calc(100% - 20px);
+}
+.centerbox .opus-time{
+	font-size:12px;
+	color: #999;
+}
+.centerbox .opus h3{
+	margin:10px 0;
+	color: #404040;
+	font-size:20px;
+}
+.centerbox .opus-biao{
+	padding:2px 2px;
+	background-color: #999;
+	font-size:12px;
+	color: #404040;
+	border-radius:2px;
+}
+.centerbox .opus-static{
+	margin-top:20px;
+	overflow:hidden;
+	font-size:12px;
+	color: #999;
+}
+.centerbox .opus-static i{
+	font-size:12px;
+	margin-right:3px;
+}
+.centerbox .opus-static span:first-of-type{
+	margin-right:20px;
+}
+.centerbox .opus-static>div:first-child{
+	float:left;
+}
+.centerbox .opus-static>div:last-child{
+	float:right;
+}

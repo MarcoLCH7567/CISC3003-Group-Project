@@ -1,0 +1,48 @@
+.logoduanxin{
+	width:calc(100% - 20px);
+	height:20px;
+	padding:10px 10px;
+	border:2px solid #D6D6D6;
+	margin-bottom:15px;
+}
+.logoduanxin>input{
+	border:none;
+	border-right:2px solid #D6D6D6;
+	width:65%;
+}
+.logoduanxin>button{
+	border:none;
+	background:none;
+	color:#42D333;
+	cursor:pointer;
+	outline:none;
+}
+.logomima{
+	margin-bottom:10px !important;
+}
+.logomimachongfu{
+	margin-bottom:10px !important;
+}
+.logoxieyi{
+	overflow:hidden;
+}
+.logoxieyi input,
+.logoxieyi span
+{
+	float:left;
+}
+.logoxieyi{
+	margin-bottom:20px;
+	color:#999;
+	font-size:14px;
+}
+.logoxieyi a{
+	font-size:14px;
+	color:#42D333;
+}
+.logoxieyi input{
+	margin-top:4px;
+}
+.logobutton{
+	margin-bottom:30px;
+}

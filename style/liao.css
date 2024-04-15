@@ -1,0 +1,311 @@
+.head {
+	height: 470px;
+	position: relative;
+}
+
+.head>.header{
+	width:100%;
+	z-index:999;
+}
+.head>.header>.container{
+	width:80% !important;
+}
+.head .banner {
+	height: 100%;
+}
+
+.head .banner>div {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: all 1.5s;
+}
+
+.hide {
+	opacity: 0 !important;
+}
+
+.show {
+	opacity: 1 !important;
+}
+
+.head .banner>div>img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.head .banner>div:first-of-type {
+	opacity: 1;
+}
+
+.lrbutton>li {
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	border: 1px solid #fff;
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+	font-size: 30px;
+	position: absolute;
+	z-index: 100;
+	font-weight: 200;
+	top: 46.3%;
+}
+
+.lrbutton>li:first-of-type {
+	left: 1%;
+}
+
+.lrbutton>li:last-of-type {
+	right: 1%;
+}
+
+.smallbutton {
+	position: absolute;
+	overflow: hidden;
+	height: 10px;
+	bottom: 4%;
+	left: 46.7%;
+	z-index: 100;
+}
+
+.smallbutton,
+.lrbutton {
+	cursor: pointer;
+}
+
+.smallbutton>li {
+	width: 10px;
+	height: 100%;
+	float: left;
+	margin-right: 15px;
+	border-radius: 100%;
+	background: rgb(180, 182, 179);
+}
+
+.smallbutton>li:first-child {
+	width: 30px;
+	border-radius: 10px;
+	background: rgb(150, 208, 156);
+}
+
+.btnstyleshow {
+	width: 30px !important;
+	border-radius: 10px !important;
+	background: rgb(150, 208, 156) !important;
+}
+
+.btnstylehide {
+	width: 10px !important;
+	border-radius: 100% !important;
+	background: rgb(180, 182, 179) !important;
+}
+.nav{
+	height:50px;
+}
+.nav>ul{
+	width:50%;
+	height:100%;
+	margin:0 auto;
+}
+.nav>ul>li{
+	height:100%;
+	float:left;
+	margin-right:20px;
+}
+.nav>ul>li>a{
+	display:block;
+	height:100%;
+	font-size:14px;
+	line-height:50px;
+	color:#999;
+}
+.nav>ul>li:first-child>a{
+	color:#404040;
+}
+.nav>ul>li>a:hover{
+	color:#404040;
+}
+.centerbox{
+	margin-bottom:50px;
+}
+.centerbox>.container{
+	height:calc(100% - 40px) !important;
+	background:#F4F4F4;
+	padding-top:40px;
+	display:flex;
+	justify-content:center;
+	width:80% !important;
+}
+.liao-one{
+	width:52%;
+	margin-right:30px;
+}
+.liao-two{
+	width:22%;
+}
+.liao-one>ul>li{
+	margin-bottom:20px;
+	overflow:hidden;
+}
+.liao-one>ul>li>div{
+	float:left;
+}
+.liao-user{
+	width:12%;
+}
+.liao-user img{
+	width:50px;
+	height:50px;
+	border-radius:100%;
+}
+.liao-name{
+	font-size:14px;
+	color:#404040;
+	margin:5px 0;
+}
+.liao-jia{
+	width:50px;
+	height:20px;
+	background:#8AC8A9;
+	border-radius:2px;
+}
+.liao-jia>a{
+	color:#fff;
+	display:block;
+	height:100%;
+	line-height:20px;
+	text-align:center;
+}
+.liao-jilu{
+	background:#fff;
+	width:calc(88% - 40px);
+	padding:30px 20px 0 20px;
+}
+.liao-jilu-time{
+	font-size:14px;
+	color:#999;
+}
+.liao-jilu>h3{
+	margin:15px 0;
+	color:#404040;
+}
+.liao-jilu-text{
+	font-size:14px;
+	color:#6B6B6B;
+	margin-bottom:30px;
+}
+.liao-jilu-img{
+	width:60%;
+	margin-bottom:30px;
+}
+.liao-jilu-img>img{
+	width:100%;
+	display:block;
+}
+.liao-jilu-xin{
+	width:calc(100% + 40px);
+	margin-left:-20px;
+	background:#F8F8F8;
+	height:50px;
+}
+.liao-jilu-xin>div{
+	width:60px;
+	height:100%;
+	text-align:center;
+	float:left;
+	color:#999;
+	font-size:14px;
+}
+.liao-jilu-xin>div>p{
+	line-height:25px;
+}
+.liao-ping{
+	border:2px #F2F2F2 solid;
+	background:#fff;
+	margin-bottom:30px;
+}
+.liao-ping>ul{
+	display:flex;
+	justify-content:center;
+	height:50px;
+	border-bottom:2px #F2F2F2 solid;
+}
+.liao-ping>ul>li{
+	width:33%;
+	height:100%;
+	border-right:2px #F2F2F2 solid;
+}
+.liao-ping>ul>li>a{
+	display:block;
+	height:100%;
+	text-align:center;
+	color:#939393;
+	font-size:14px;
+}
+.liao-ping>ul>li>a>p:first-child{
+	margin-top:3px;
+}
+.liao-ping>ul>li>a i{
+	font-size:22px !important;
+}
+.liao-ping>ul>li:last-child{
+	border:none;
+}
+.liao-fa{
+	padding:30px 20px;
+	width:calc(100% - 40px);
+}
+.liao-fa>form{
+	height:100%;
+	overflow:hidden;
+}
+.liao-fa>form>div:first-child{
+	height:30px;
+}
+.liao-fa>form>div:first-child>span,
+.liao-fa>form>div:first-child>input{
+	float:left;
+}
+.liao-fa>form>div:first-child>span{
+	margin-top:3px;
+	margin-right:5%;
+	width:11%;
+}
+.liao-fa>form>div:first-child i{
+	font-size:30px;
+	color:#A0A0A0;
+}
+.liao-fa>form>div:first-child input{
+	height:100%;
+	width:80%;
+	border:2px #F2F2F2 solid;
+	background:#F8F8F8;
+}
+.liao-fa>form>div:last-child{
+	height:25px;
+	margin-top:20px;
+}
+.liao-fa>form>div:last-child>button{
+	float:right;
+	height:100%;
+	width:70px;
+	text-align:center;
+	line-height:25px;
+	color:#fff;
+	font-size:14px;
+	background:#BABABA;
+	border:none;
+	margin-right:4px;
+	border-radius:2px;
+}
+
+.wenlist{
+	width:calc(100% - 34px) !important;
+}
+.wenlist .title{
+	background:#F4F4F4;
+}

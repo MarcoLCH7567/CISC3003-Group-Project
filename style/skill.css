@@ -1,0 +1,79 @@
+.header>.container{
+	width:80% !important;
+}
+.banner{
+	height:400px;
+}
+.banner>.container{
+	width:80% !important;
+	position:relative;
+}
+.banner img{
+	width:100%;
+	height:100%;
+	display:block;
+}
+.banner>.container>div{
+	position:absolute;
+}
+.banner .time{
+	color:rgba(255,255,255,.8);
+	font-size:14px;
+	left:10%;
+	top:10%;
+}
+.banner .title{
+	color:rgba(255,255,255,.8);
+	left:10%;
+	top:40%;
+}
+.banner .title>h1{
+	margin:0;
+	font-weight:500;
+}
+.banner .text{
+	width:80%;
+	left:10%;
+	bottom:10%;
+	color:rgba(255,255,255,.8);
+	font-size:14px;
+}
+.banner .text>div:first-child{
+	float:left;
+}
+.banner .text>div:first-child>span:first-child{
+	margin-right:30px;
+}
+.banner .text>div:last-child{
+	float:right;
+}
+.centerbox{
+	padding:40px 0;
+}
+.centerbox>.container{
+	width:50% !important;
+}
+.centerbox p{
+	color: #404040;
+	margin-bottom:40px;
+	letter-spacing:2px;
+	text-align:left;
+}
+.centerbox h3{
+	margin-top:80px;
+	text-align:center;
+}
+.centerbox img{
+	width:100%;
+	margin-bottom:30px;
+}
+.centerbox .title>a{
+	text-decoration:underline;
+}
+.centerbox div{
+	text-align:center;
+	margin-bottom:10px;
+}
+.centerbox .zuozhe{
+	margin-bottom:40px;
+}

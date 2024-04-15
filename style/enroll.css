@@ -1,0 +1,189 @@
+.banner {
+	height: 350px;
+	margin-top: 40px;
+}
+
+.banner>.container {
+	width: 50% !important;
+}
+
+.banner>.container>div {
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+
+.banner>.container>div>img {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.banner .er {
+	position: relative;
+}
+
+.banner .er>div {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.banner .er>.bgimg {
+	background: rgba(0, 0, 0, .5);
+}
+
+.banner .er>.text {
+	z-index: 99;
+	color: rgba(255, 255, 255, .8);
+}
+
+.banner .er>.text>div:first-child {
+	padding: 16px 10px;
+	width: calc(100% - 20px);
+	height: calc(100% - 32px);
+	font-size: 12px;
+}
+
+.banner .er>.text .time {
+	overflow: hidden;
+}
+
+.banner .er>.text .time i {
+	font-size: 12px;
+	margin-right: 3px;
+}
+
+.banner .er>.text .time>div:first-child {
+	float: left;
+}
+
+.banner .er>.text .time>div:last-child {
+	float: right;
+}
+
+.banner .er>.text .time>div:last-child>span:first-child {
+	margin-right: 10px;
+}
+
+.banner .er>.text h1 {
+	font-size: 20px;
+	font-weight: 500;
+	color: rgb(255, 255, 255);
+}
+
+.banner .er>.text .fenxiang {
+	margin-top: 150px;
+	text-align: right;
+}
+
+.banner .er>.text .fenxiang>a {
+	color: rgb(255, 255, 255);
+	margin-left: 10px;
+}
+
+.banner .er>.text .button {
+	position: absolute;
+	width: 100%;
+	height: 50px;
+	color: #fff;
+	background: #42D333;
+	text-align: center;
+	line-height: 50px;
+	font-size: 18px;
+	bottom: 0;
+	z-index: 100;
+	cursor: pointer;
+	letter-spacing: 10px;
+}
+
+.banner .er>.text .lianxi {
+	position: absolute;
+	background: rgba(0, 0, 0, .5);
+	overflow: hidden;
+	border-radius: 2px;
+	bottom: -25px;
+	right: 10px;
+	z-index: 101;
+}
+
+.banner .er>.text .lianxi>a {
+	padding: 2px 7px;
+	display: block;
+	color: #fff;
+}
+
+.centerbox>.container {
+	width: 50% !important;
+	background: #F5F6FA;
+	height: calc(100% - 60px);
+}
+
+.centerbox .nav {
+	height: 40px;
+}
+
+.centerbox .nav>li {
+	float: left;
+	margin-right: 20px;
+	height: 100%;
+}
+
+.centerbox .nav>li>a {
+	display: block;
+	height: 100%;
+	line-height: 40px;
+	color: #404040;
+	font-size: 14px;
+	border-top: 2px rgba(255, 255, 255, 0) solid;
+}
+
+.centerbox .nav>li>a:hover {
+	color: #42D333;
+	border-top: 2px #42D333 solid;
+}
+
+.centerbox .nav>li:last-child>a {
+	color: #42D333;
+	border-top: 2px #42D333 solid;
+}
+
+.centerbox .text {
+	background: #fff;
+	padding: 50px 0;
+}
+
+.centerbox .text>.miaoshu {
+	text-align: center;
+	line-height: 30px;
+	font-size: 14px;
+}
+
+.centerbox .text>.miaoshu>a {
+	text-decoration: underline;
+}
+
+.centerbox .text>img {
+	width: 100%;
+	display: block;
+	margin-top: 40px;
+}
+
+.centerbox .text>.te {
+	margin-top: 40px;
+}
+
+.centerbox .text>.textleft {
+	text-align: left;
+}
+
+.centerbox .text h3 {
+	text-align: center;
+}
+
+.centerbox .text .imgma {
+	width: 50% !important;
+	margin: 0 auto;
+	margin-top: 40px;
+}

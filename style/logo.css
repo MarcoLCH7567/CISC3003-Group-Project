@@ -1,0 +1,193 @@
+
+.header{
+	position:fixed !important;
+	width:100%;
+	top:0;
+	z-index:1001;
+}
+.header>.container{
+	width:80% !important;
+}
+.header a{
+	color:#fff !important;
+}
+.header div{
+	border-color:#fff !important;
+}
+.head .banner>div {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: all 1.5s;
+}
+
+
+.hide {
+	opacity: 0 !important;
+}
+
+.show {
+	opacity: 1 !important;
+}
+
+.head .banner>div>img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	min-height:850px;
+}
+
+.head .banner>div:first-of-type {
+	opacity: 1;
+}
+.bg{
+	width:100%;
+	height:100%;
+	position:absolute;
+	background:rgba(255,255,255,.3);
+	z-index:998;
+	min-height:850px;
+}
+.logobox{
+	position:absolute;
+	width:calc(20% - 100px);
+	height:530px;
+	background:#fff;
+	left:40%;
+	top:25%;
+	border-radius:2px;
+	padding:0 50px;
+	z-index:1000;
+	min-width:285px;
+}
+.logobox>h1{
+	text-align:center;
+	font-size:25px;
+	margin:30px 0;
+	margin-bottom:15px;
+	color:#404040;
+}
+.logoclass{
+	width:calc(100% - 40px);
+	padding:0 20px;
+	height:40px;
+	display:flex;
+	justify-content:space-between;
+}
+.logoclass>li>a{
+	color:#D6D6D6;
+	font-size:18px;
+	display:block;
+	height:calc(100% - 3px);
+	border-bottom:3px solid rgba(0,0,0,0);
+	line-height:40px;
+}
+.logoclass>li:first-child>a{
+	color:#42D333;
+	border-color:#42D333;
+}
+.logoclass>li>a:hover{
+	color:#42D333;
+	border-color:#42D333;
+}
+.logobox>form{
+	width:100%;
+	margin-top:20px;
+}
+.logolable{
+	color:#404040;
+	font-size:14px;
+	line-height:30px;
+}
+.logoinput{
+	display:flex;
+	justify-content:space-between;
+	height:40px;
+	margin-bottom:20px;
+}
+.logoinput>div:first-child{
+	height:100%;
+	width:25%;
+	line-height:40px;
+	text-align:center;
+	border:2px solid #D6D6D6;
+	color:#404040;
+}
+.logoinput>div:last-child{
+	width:calc(68% - 20px);
+	padding:10px 10px;
+	height:calc(100% - 20px);
+	border:2px solid #D6D6D6;
+}
+.logoinput>div:last-child>input{
+	width:100%;
+	height:20px;
+	border:none;
+	background:none;
+}
+.logomima{
+	width:calc(100% - 20px);
+	height:20px;
+	padding:10px 10px;
+	border:2px solid #D6D6D6;
+	margin-bottom:30px;
+}
+.logomima>input{
+	width:100%;
+	height:20px;
+	border:none;
+	background:none;
+}
+.logobutton{
+	width:100%;
+	height:40px;
+	background:#42D333;
+	text-align:center;
+	line-height:40px;
+	color:#fff;
+	margin-bottom:15px;
+}
+.logocaozuo{
+	display:flex;
+	justify-content:space-between;
+	margin-bottom:25px;
+}
+.logocaozuo a{
+	color:#999;
+	
+}
+.logohuozhe{
+	position:relative;
+	border-top:2px solid #D6D6D6;
+}
+.logohuozhe>div{
+	position:absolute;
+	background:#fff;
+	color:#999;
+	width:20%;
+	top:-11px;
+	text-align:center;
+	left:40%;
+	font-size:14px;
+}
+.logoqita{
+	display:flex;
+	height:90px;
+	justify-content:space-around;
+	align-items:center;
+}
+.logoqita a>i{
+	font-size:25px !important;
+}
+.logoqita>li:first-child i{
+	font-size:30px !important;
+	color: #76C945;
+}
+.logoqita>li:nth-child(2) i{
+	font-size:30px !important;
+	color: #E2675F;
+}
+.logoqita>li:last-child i{
+	color: #1DC4F3;
+}
